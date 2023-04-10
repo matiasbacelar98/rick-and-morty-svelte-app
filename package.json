@@ -17,6 +17,7 @@
     "vite": "^4.2.0"
   },
   "dependencies": {
-    "@sveltejs/adapter-auto": "^2.0.0"
+    "@sveltejs/adapter-auto": "^2.0.0",
+    "svelte-icons-pack": "^2.1.0"
   }
 }

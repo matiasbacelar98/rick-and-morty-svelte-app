@@ -1,0 +1,1 @@
+<span class='inline-block font-bold text-2xl dark:text-white text-green'>Rick-and-morty</span>
