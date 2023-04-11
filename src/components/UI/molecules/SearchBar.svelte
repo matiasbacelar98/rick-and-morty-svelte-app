@@ -1,5 +1,7 @@
 <script>
     export let isDarkTheme;
+    export let debounced;
+    
     import Icon from 'svelte-icons-pack/Icon.svelte';
     import FaSearch from 'svelte-icons-pack/fa/FaSolidSearch';
 </script>
@@ -19,5 +21,6 @@
         h-20 px-12 block bg-green dark:bg-white text-white dark:text-green' 
         type="search"
         id="search"
+        on:keyup={(e) => debounced(e.target.value)}
     />
 </article>
