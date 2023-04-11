@@ -27,7 +27,7 @@
 </script>
 
 <div class:dark={isDarkTheme}>
-  <main class='min-h-screen grid place-items-center bg-white dark:bg-green px-4'>
+  <main class='min-h-screen grid place-items-center bg-white dark:bg-green px-4 py-8'>
     <Character toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />
   </main>
 </div>
